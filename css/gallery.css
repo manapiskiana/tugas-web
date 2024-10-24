@@ -1,0 +1,56 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    box-sizing: border-box;
+    background-color: #1e1e1ee1;
+    margin: 0;
+    padding: 5px;
+    color: white;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+body{
+    background-image: url(assets/wallhaven-g86zpe.jpg);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+.image-container {
+    margin: 0;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.image-container .image {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.image-container h2{
+    color: white;
+}
+.image-container .image img {
+
+    margin: 5px 0;
+    width: calc(100% / 3 - 5px);
+    height: 200px;
+    border: 2px ;
+    border-radius: 15px;
+}

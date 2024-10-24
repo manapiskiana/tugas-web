@@ -1,0 +1,64 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    box-sizing: border-box;
+    background-color: #1e1e1ee1;
+    margin: 0;
+    padding: 5px;
+    color: white;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(assets/wallhaven-g86zpe.jpg);
+    background-size: cover;
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1000px;
+    margin: auto;
+}
+.isi-biodata-kiri{
+    width: 40%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #1a1a1ac6;
+}
+.isi-biodata-kiri h2{
+    color: yellow;
+}
+.isi-biodata-kiri h3{
+    color: white;
+}
+.isi-biodata-kanan{
+    width: 40%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #1a1a1ac6;
+}
+.isi-biodata-kanan h2{
+    color: yellow;
+}
+.isi-biodata-kanan h3{
+    color: white;
+}
+
