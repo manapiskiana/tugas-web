@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faris-Manaf</title>
+    <link rel="icon" href="css/assets/umbrella-corporation-logo-59C799E7A5-seeklogo.com.png" />
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color:  #e0f2f1;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .form-section {
+            background-color:  royalblue;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .form-section-light {
+            background-color: palegoldenrod; 
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        label {
+            font-weight: bold;
+        }
+        .bg-light .text-center {
+          background-color: rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">FORMULIR PENDAFTARAN</h2>
+    <form>
+
+      <h4 class="mb-3">DATA DIRI</h4>
+
+        <div class="row mb-3 form-section">
+            <div class="col-md-6">
+                <label for="firstName" class="form-label">Nama Depan</label>
+                <input type="text" class="form-control" id="firstName" required>
+            </div>
+            <div class="col-md-6">
+                <label for="lastName" class="form-label">Nama Belakang</label>
+                <input type="text" class="form-control" id="lastName" required>
+            </div>
+        </div>
+
+        <div class="row mb-3 form-section-light">
+            <div class="col-md-6">
+                <label for="alamat" class="form-label">Alamat</label>
+                <input type="text" class="form-control" id="alamat" required>
+            </div>
+            <div class="col-md-6">
+                <label for="agama" class="form-label">Agama</label>
+                <select class="form-select" id="agama" required>
+                    <option selected="">--pilih--</option>
+                    <option value="1">Islam</option>
+                    <option value="2">Kristen</option>
+                    <option value="3">Khatolik</option>
+                    <option value="4">Buddha</option>
+                    <option value="5">Hindu</option>
+                    <option value="6">Kong Hu Chu</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row mb-3 form-section">
+            <div class="col-md-6">
+                <label for="noHP" class="form-label">No HP</label>
+                <input type="text" class="form-control" id="noHP" required>
+            </div>
+            <div class="col-md-6">
+                <label for="gender" class="form-label">Jenis Kelamin</label>
+                <select class="form-select" id="gender" required>
+                    <option selected="">--Pilih--</option>
+                    <option value="1">Laki-laki</option>
+                    <option value="2">Perempuan</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row mb-3 form-section-light">
+            <div class="col-md-6">
+                <label for="pekerjaan" class="form-label">Pekerjaan</label>
+                <select class="form-select" id="pekerjaan" required>
+                    <option selected="0">--Pilih--</option>
+                    <option value="1">Swasta</option>
+                    <option value="2">PNS</option>
+                    <option value="3">TNI</option>
+                    <option value="4">Polri</option>
+                    <option value="5">Dokter</option>
+                    <option value="6">Programmer</option>
+                    <option value="7">DPR</option>
+                    <option value="8">Guru</option>
+                    <option value="9">Dosen</option>
+                    <option value="10">Lain-lain</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="nik" class="form-label">NIK / No KTP</label>
+                <input type="text" class="form-control" id="nik" required>
+            </div>
+        </div>
+
+        <div class="row mb-3 form-section">
+            <div class="col-md-4">
+                <label for="facebook" class="form-label">URL Facebook</label>
+                <input type="text" class="form-control" id="facebook">
+            </div>
+            <div class="col-md-4">
+                <label for="instagram" class="form-label">URL Instagram</label>
+                <input type="text" class="form-control" id="instagram">
+            </div>
+            <div class="col-md-4">
+                <label for="tiktok" class="form-label">URL Tiktok</label>
+                <input type="text" class="form-control" id="tiktok">
+            </div>
+        </div>
+
+        <h4 class="mb-3">Data Orang Tua</h4>
+
+        <div class="row mb-3 form-section-light">
+            <div class="col-md-6">
+                <label for="namaAyah" class="form-label">Nama Ayah</label>
+                <input type="text" class="form-control" id="namaAyah" required>
+            </div>
+            <div class="col-md-6">
+                <label for="namaIbu" class="form-label">Nama Ibu</label>
+                <input type="text" class="form-control" id="namaIbu" required>
+            </div>
+        </div>
+
+        <div class="row mb-3 form-section">
+            <div class="col-md-6">
+                <label for="alamatAyah" class="form-label">Alamat Ayah</label>
+                <input type="text" class="form-control" id="alamatAyah" required>
+            </div>
+            <div class="col-md-6">
+                <label for="alamatIbu" class="form-label">Alamat Ibu</label>
+                <input type="text" class="form-control" id="alamatIbu" required>
+            </div>
+        </div>
+
+        <div class="row mb-3 form-section-light">
+            <div class="col-md-6">
+                <label for="pekerjaanAyah" class="form-label">Pekerjaan Ayah</label>
+                <select class="form-select" id="pekerjaanAyah" required>
+                  <option selected="0">--Pilih--</option>
+                  <option value="1">Swasta</option>
+                  <option value="2">PNS</option>
+                  <option value="3">TNI</option>
+                  <option value="4">Polri</option>
+                  <option value="5">Dokter</option>
+                  <option value="6">Programmer</option>
+                  <option value="7">DPR</option>
+                  <option value="8">Guru</option>
+                  <option value="9">Dosen</option>
+                  <option value="10">Lain-lain</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="pekerjaanIbu" class="form-label">Pekerjaan Ibu</label>
+                <select class="form-select" id="pekerjaanIbu" required>
+                  <option selected="0">--Pilih--</option>
+                  <option value="1">Swasta</option>
+                  <option value="2">PNS</option>
+                  <option value="3">TNI</option>
+                  <option value="4">Polri</option>
+                  <option value="5">Dokter</option>
+                  <option value="6">Programmer</option>
+                  <option value="7">DPR</option>
+                  <option value="8">Guru</option>
+                  <option value="9">Dosen</option>
+                  <option value="9">Dosen</option>
+                  <option value="10">Lain-lain</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row mb-3 form-section">
+            <div class="col-md-6">
+                <label for="penghasilanAyah" class="form-label">Penghasilan Ayah</label>
+                <input type="text" class="form-control" id="penghasilanAyah" required>
+            </div>
+            <div class="col-md-6">
+                <label for="penghasilanIbu" class="form-label">Penghasilan Ibu</label>
+                <input type="text" class="form-control" id="penghasilanIbu" required>
+            </div>
+        </div>
+
+        <div class="row mb-3 form-section-light">
+            <div class="col-md-6">
+                <label for="noHPAyah" class="form-label">No HP Ayah</label>
+                <input type="text" class="form-control" id="noHPAyah" required>
+            </div>
+            <div class="col-md-6">
+                <label for="noHPIbu" class="form-label">No HP Ibu</label>
+                <input type="text" class="form-control" id="noHPIbu" required>
+            </div>
+        </div>
+
+        <h4 class="mb-3">Akun Pendaftaran</h4>
+
+        <div class="row mb-3 form-section">
+            <div class="col-md-6">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" class="form-control" id="username" required>
+            </div>
+            <div class="col-md-6">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" required>
+            </div>
+        </div>
+
+        <div class="row mb-3 form-section-light">
+            <div class="col-md-6">
+                <label for="confirmPassword" class="form-label">confirm Password</label>
+                <input type="password" class="form-control" id="confirmPassword" required>
+            </div>
+        </div>
+
+        <div class="d-grid gap-2">
+            <a type="submit" class="btn btn-danger btn-lg" href="login.html">SUBMIT</a>
+            
+        </div>
+    </form>
+</div>
+<footer class="bg-light text-center text-lg-start mt-5">
+    <div class="text-center p-3">
+      © 2024 Hak Cipta: 
+      <a class="text-dark" href="https://www.riotgames.com/id">riotgames.com</a>
+    </div>
+  </footer>
+<script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
